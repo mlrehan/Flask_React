@@ -1,0 +1,25 @@
+# Ignore the virtual environment folder
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore database files in the instance folder
+instance/*.db
+
+# Ignore environment files for sensitive data
+.env
+*.env
+
+# Ignore IDE and editor configuration files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore node_modules if you're using npm in the frontend
+frontend/node_modules/
